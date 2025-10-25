@@ -1,0 +1,233 @@
+[
+  {
+    "id": 1,
+    "name": "Advanced React Patterns",
+    "host": "Sarah Johnson",
+    "type": "Technical",
+    "date": "2025-11-02",
+    "time": "2:00 PM",
+    "duration": "2 hours",
+    "location": "Virtual - Zoom",
+    "capacity": 50,
+    "enrolled": 32,
+    "image": "https://images.unsplash.com/photo-1508830524289-0adcbe822b40?auto=format&fit=crop&w=800&q=80",
+    "description": "Dive deep into advanced React patterns including compound components, render props, and custom hooks for scalable UI architecture.",
+    "requirements": "Basic React knowledge, Node.js installed",
+    "agenda": [
+      "Introduction to advanced patterns",
+      "Compound components deep dive",
+      "Custom hooks best practices"
+    ],
+    "isBookmarked": false
+  },
+  {
+    "id": 2,
+    "name": "Mastering Node.js APIs",
+    "host": "Omar Khaled",
+    "type": "Backend",
+    "date": "2025-11-04",
+    "time": "6:00 PM",
+    "duration": "3 hours",
+    "location": "TechSpace Cairo",
+    "capacity": 40,
+    "enrolled": 25,
+    "image": "https://images.unsplash.com/photo-1515879218367-8466d910aaa4?auto=format&fit=crop&w=800&q=80",
+    "description": "Build secure and scalable RESTful APIs using Express.js and MongoDB. Learn best practices for authentication and error handling.",
+    "requirements": "JavaScript basics, REST API knowledge",
+    "agenda": [
+      "API design fundamentals",
+      "Express.js routing & middleware",
+      "Error handling and security"
+    ],
+    "isBookmarked": false
+  },
+  {
+    "id": 3,
+    "name": "UI/UX Design Bootcamp",
+    "host": "Mona Hany",
+    "type": "Design",
+    "date": "2025-11-06",
+    "time": "5:00 PM",
+    "duration": "3 hours",
+    "location": "Virtual - Google Meet",
+    "capacity": 60,
+    "enrolled": 54,
+    "image": "https://images.unsplash.com/photo-1587614382346-4ec71c8d7b86?auto=format&fit=crop&w=800&q=80",
+    "description": "Learn design principles, color theory, typography, and layout techniques to build stunning UI/UX experiences.",
+    "requirements": "No prior experience needed",
+    "agenda": [
+      "What makes a great UI/UX",
+      "Figma basics and prototyping",
+      "Usability testing"
+    ],
+    "isBookmarked": false
+  },
+  {
+    "id": 4,
+    "name": "Data Visualization with Python",
+    "host": "Karim Mostafa",
+    "type": "Data",
+    "date": "2025-11-08",
+    "time": "4:30 PM",
+    "duration": "2.5 hours",
+    "location": "Virtual - Zoom",
+    "capacity": 80,
+    "enrolled": 65,
+    "image": "https://images.unsplash.com/photo-1581090700227-1e37b190418e?auto=format&fit=crop&w=800&q=80",
+    "description": "Visualize and interpret data using Matplotlib, Seaborn, and Plotly to create insightful dashboards.",
+    "requirements": "Python basics",
+    "agenda": [
+      "Data visualization libraries",
+      "Plotting techniques",
+      "Creating interactive charts"
+    ],
+    "isBookmarked": false
+  },
+  {
+    "id": 5,
+    "name": "AI for Everyone",
+    "host": "Yasmin Ali",
+    "type": "AI",
+    "date": "2025-11-10",
+    "time": "7:00 PM",
+    "duration": "2 hours",
+    "location": "Virtual - Microsoft Teams",
+    "capacity": 100,
+    "enrolled": 88,
+    "image": "https://images.unsplash.com/photo-1581090464681-2380b1d4b191?auto=format&fit=crop&w=800&q=80",
+    "description": "Understand artificial intelligence concepts in a simple and practical way, suitable for all backgrounds.",
+    "requirements": "Curiosity and willingness to learn",
+    "agenda": [
+      "What is AI?",
+      "Real-world AI examples",
+      "Ethics in AI"
+    ],
+    "isBookmarked": false
+  },
+  {
+    "id": 6,
+    "name": "Building a Personal Brand Online",
+    "host": "Hossam Reda",
+    "type": "Business",
+    "date": "2025-11-12",
+    "time": "5:00 PM",
+    "duration": "1.5 hours",
+    "location": "Tech Park, Alexandria",
+    "capacity": 45,
+    "enrolled": 39,
+    "image": "https://images.unsplash.com/photo-1508385082359-f38ae991e8f3?auto=format&fit=crop&w=800&q=80",
+    "description": "Learn how to grow your professional brand using social media, networking, and storytelling.",
+    "requirements": "Basic social media presence",
+    "agenda": [
+      "Personal branding fundamentals",
+      "Content strategy",
+      "Building audience trust"
+    ],
+    "isBookmarked": false
+  },
+  {
+    "id": 7,
+    "name": "Effective Communication Skills",
+    "host": "Sara Adel",
+    "type": "Soft Skills",
+    "date": "2025-11-14",
+    "time": "3:30 PM",
+    "duration": "2 hours",
+    "location": "Virtual - Zoom",
+    "capacity": 70,
+    "enrolled": 55,
+    "image": "https://images.unsplash.com/photo-1598257006408-8e9d78c57ecf?auto=format&fit=crop&w=800&q=80",
+    "description": "Enhance your ability to communicate effectively in professional and social settings.",
+    "requirements": "None",
+    "agenda": [
+      "Understanding communication styles",
+      "Active listening techniques",
+      "Body language essentials"
+    ],
+    "isBookmarked": false
+  },
+  {
+    "id": 8,
+    "name": "Creative Problem Solving",
+    "host": "Mohamed Farouk",
+    "type": "Creative",
+    "date": "2025-11-16",
+    "time": "6:00 PM",
+    "duration": "1.5 hours",
+    "location": "Innovation Hub, Cairo",
+    "capacity": 50,
+    "enrolled": 43,
+    "image": "https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?auto=format&fit=crop&w=800&q=80",
+    "description": "A hands-on workshop to boost your creative thinking and find innovative solutions to real challenges.",
+    "requirements": "Open mindset",
+    "agenda": [
+      "Understanding creativity",
+      "Idea generation tools",
+      "Practical brainstorming"
+    ],
+    "isBookmarked": false
+  },
+  {
+    "id": 9,
+    "name": "Leadership for Developers",
+    "host": "Nour Tarek",
+    "type": "Soft Skills",
+    "date": "2025-11-17",
+    "time": "5:00 PM",
+    "duration": "2 hours",
+    "location": "Virtual - Zoom",
+    "capacity": 40,
+    "enrolled": 31,
+    "image": "https://images.unsplash.com/photo-1600880292089-90a7e086ee0c?auto=format&fit=crop&w=800&q=80",
+    "description": "Learn how to lead development teams effectively and balance technical and people skills.",
+    "requirements": "Experience in team projects",
+    "agenda": [
+      "Leadership fundamentals",
+      "Motivating your team",
+      "Managing conflicts"
+    ],
+    "isBookmarked": false
+  },
+  {
+    "id": 10,
+    "name": "Cybersecurity Awareness 101",
+    "host": "Tamer Saeed",
+    "type": "Security",
+    "date": "2025-11-19",
+    "time": "8:00 PM",
+    "duration": "2 hours",
+    "location": "Virtual - Zoom",
+    "capacity": 80,
+    "enrolled": 70,
+    "image": "https://images.unsplash.com/photo-1605902711622-cfb43c4437b5?auto=format&fit=crop&w=800&q=80",
+    "description": "Understand modern cybersecurity threats and how to protect yourself and your company online.",
+    "requirements": "Basic computer literacy",
+    "agenda": [
+      "Common cyber threats",
+      "Protecting data",
+      "Practical security measures"
+    ],
+    "isBookmarked": false
+  },
+  {
+    "id": 11,
+    "name": "Intro to Cloud Computing",
+    "host": "Ibrahim Nasser",
+    "type": "Tech",
+    "date": "2025-11-20",
+    "time": "4:00 PM",
+    "duration": "2 hours",
+    "location": "Virtual - Google Meet",
+    "capacity": 100,
+    "enrolled": 91,
+    "image": "https://images.unsplash.com/photo-1555949963-aa79dcee981c?auto=format&fit=crop&w=800&q=80",
+    "description": "Explore the basics of cloud infrastructure, SaaS, PaaS, and IaaS models with real-world case studies.",
+    "requirements": "Basic IT knowledge",
+    "agenda": [
+      "What is Cloud Computing?",
+      "AWS, Azure, GCP overview",
+      "Deploying a sample app"
+    ],
+    "isBookmarked": false
+  }
+]

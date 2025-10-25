@@ -4,7 +4,7 @@ const SessionList = ({ sessions, favorites, onToggleFavorite, onSelectSession })
   if (!sessions || sessions.length === 0) {
     return (
       <p className="text-center text-gray-500 mt-10 text-lg">
-        😕 لا توجد ورش مطابقة للبحث الحالي.
+         لا توجد ورش مطابقة للبحث الحالي.
       </p>
     );
   }
@@ -16,7 +16,7 @@ const SessionList = ({ sessions, favorites, onToggleFavorite, onSelectSession })
           key={session.id}
           className="bg-white rounded-2xl shadow-md p-5 flex flex-col justify-between hover:shadow-lg transition-shadow duration-300"
         >
-          {/* صورة الورشة */}
+          {/* workshop image */}
           {session.image && (
             <img
               src={session.image}
@@ -25,23 +25,23 @@ const SessionList = ({ sessions, favorites, onToggleFavorite, onSelectSession })
             />
           )}
 
-          {/* اسم الورشة */}
+          {/* workshop name */}
           <h3 className="text-lg font-semibold text-gray-800 mb-1">
             {session.name || "ورشة بدون اسم"}
           </h3>
 
-          {/* المضيف */}
+          {/* host */}
           <p className="text-sm text-gray-500 mb-2">
             👤 المضيف:{" "}
             <span className="font-medium">{session.host || "غير محدد"}</span>
           </p>
 
-          {/* النوع */}
+          {/* type */}
           <span className="inline-block bg-indigo-100 text-indigo-700 text-xs font-semibold px-3 py-1 rounded-full mb-3 w-fit">
             {session.type || "نوع غير معروف"}
           </span>
 
-          {/* التاريخ والوقت */}
+          {/*date & time */}
           <div className="flex items-center gap-4 text-gray-600 text-sm mb-3">
             <div className="flex items-center gap-1">
               <i className="fa-regular fa-calendar"></i>
@@ -53,7 +53,7 @@ const SessionList = ({ sessions, favorites, onToggleFavorite, onSelectSession })
             </div>
           </div>
 
-          {/* أزرار */}
+          {/* buttons */}
           <div className="flex justify-between items-center mt-auto pt-2">
             <button
               onClick={() => onToggleFavorite(session.id)}
@@ -66,7 +66,7 @@ const SessionList = ({ sessions, favorites, onToggleFavorite, onSelectSession })
               {favorites.includes(session.id) ? "❤️ مفضلة" : "🤍 أضف للمفضلة"}
             </button>
 
-            {/* ✅ زر التفاصيل */}
+          
             <button
               onClick={() => onSelectSession(session)}
               className="bg-indigo-600 hover:bg-indigo-700 text-white text-sm font-medium px-4 py-2 rounded-lg transition-colors"

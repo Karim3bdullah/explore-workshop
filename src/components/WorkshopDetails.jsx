@@ -5,7 +5,7 @@ import { Calendar, Clock, MapPin, User } from "lucide-react";
 const WorkshopDetails = ({ session, onClose }) => {
   if (!session) return null;
 
-  // 🟢 دي الدالة اللي كانت ناقصة
+
   const handleEnroll = () => {
     alert(`✅ You have successfully enrolled in "${session.name}"!`);
   };
@@ -21,14 +21,14 @@ const WorkshopDetails = ({ session, onClose }) => {
         initial={{ y: 50, opacity: 0 }}
         animate={{ y: 0, opacity: 1 }}
       >
-        {/* صورة الورشة */}
+        {/* image*/}
         <img
           src={session.image}
           alt={session.name}
           className="w-full h-64 object-cover rounded-xl mb-4"
         />
 
-        {/* العنوان والمضيف */}
+        {/* host & address*/}
         <div className="flex justify-between items-center mb-3">
           <h2 className="text-2xl font-bold text-gray-800">{session.name}</h2>
           <span className="text-sm px-3 py-1 bg-indigo-100 text-indigo-700 rounded-full">
@@ -40,7 +40,7 @@ const WorkshopDetails = ({ session, onClose }) => {
           <User size={18} /> {session.host}
         </p>
 
-        {/* تفاصيل التاريخ والموقع */}
+        {/* time & location  */}
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 text-gray-700 mb-5">
           <p className="flex items-center gap-2">
             <Calendar size={18} /> {session.date}
@@ -55,7 +55,7 @@ const WorkshopDetails = ({ session, onClose }) => {
           )}
         </div>
 
-        {/* الوصف */}
+        {/* description*/}
         {session.description && (
           <div className="mb-5">
             <h3 className="font-semibold text-gray-800 mb-1">Description</h3>
@@ -63,7 +63,7 @@ const WorkshopDetails = ({ session, onClose }) => {
           </div>
         )}
 
-        {/* المتطلبات */}
+        {/* requirements*/}
         {session.requirements && (
           <div className="mb-5">
             <h3 className="font-semibold text-gray-800 mb-1">Requirements</h3>
@@ -71,7 +71,7 @@ const WorkshopDetails = ({ session, onClose }) => {
           </div>
         )}
 
-        {/* الأجندة */}
+        {/* agenda*/}
         {session.agenda && session.agenda.length > 0 && (
           <div className="mb-6">
             <h3 className="font-semibold text-gray-800 mb-2">Agenda</h3>
@@ -83,7 +83,7 @@ const WorkshopDetails = ({ session, onClose }) => {
           </div>
         )}
 
-        {/* الأزرار */}
+        {/* buttons*/}
         <div className="flex justify-end gap-3 mt-6">
           <button
             onClick={onClose}
